@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IIT Bombay Study Resources</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#resources">Resources</a></li>
+            <li><a href="#upload">Upload Resource</a></li>
+        </ul>
+    </nav>
+
+    <div id="home">
+        <h1>Welcome to IIT Bombay Study Resources</h1>
+        <p>Your one-stop destination for study materials.</p>
+    </div>
+
+    <div id="resources">
+        <h2>Available Resources</h2>
+        <div id="resourceList">
+            <!-- Resources will be dynamically added here -->
+        </div>
+    </div>
+
+    <div id="upload">
+        <h2>Upload a Resource</h2>
+        <form id="uploadForm">
+            <input type="file" name="resource" required>
+            <input type="text" name="description" placeholder="Resource Description" required>
+            <button type="submit">Upload</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
